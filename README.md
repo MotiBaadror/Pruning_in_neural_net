@@ -1,4 +1,4 @@
-# Sparsity of neural network
+# Pruning in neural network
 #### Given a layer of a neural network ReLU(xW) are two well-known ways to prune it:
 1. Weight pruning: set individual weights in the weight matrix to zero. This corresponds to deleting connections as in the figure above. Here, to achieve sparsity of k% we rank the individual weights in weight
 matrix W according to their magnitude (absolute value), and then set to zero the smallest k%.
